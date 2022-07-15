@@ -1,0 +1,81 @@
+body {
+  background-color: #333;
+}
+.container {
+  height: 90vh;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1rem auto;
+  flex-direction: column;
+  color: #fff;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: #fff;
+  padding: 1rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+
+.inputData {
+  padding: 1rem;
+  margin: 1rem;
+  outline: none;
+  border-radius: 11px;
+  width: 17rem;
+  font-size: larger;
+}
+
+.btnCal {
+  background-color: rgb(78, 78, 235);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #fff;
+  font-size: larger;
+}
+
+.btnCal:hover {
+  transition: scale(0.98);
+}
+
+.output {
+  color: #333;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.result {
+  color: rgb(78, 78, 235);
+}
+
+.overlay {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.bmi-category {
+  color: #333;
+  font-size: larger;
+  font-weight: 700;
+}
+.bmi-category p:nth-child(even) {
+  color: orange;
+}
+.bmi-category p:nth-child(3n + 0) {
+  color: green;
+}
+.bmi-category p:last-child {
+  color: red;
+}
